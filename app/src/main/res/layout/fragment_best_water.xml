@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.BestWaterFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/yeoldae_scroll"
+                    style="@style/Type"
+                    android:text="열대어" />
+
+                <Button
+                    android:id="@+id/guppy_cb"
+                    style="@style/BestItem"
+                    android:text="구피"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/guppy_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/flatty_cb"
+                    style="@style/BestItem"
+                    android:text="플래티/베어리터스"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/flatty_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/molly_cb"
+                    style="@style/BestItem"
+                    android:text="몰리/소드"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/molly_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/discuss_cb"
+                    style="@style/BestItem"
+                    android:text="디스커스"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/discuss_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약산성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/tettra_cb"
+                    style="@style/BestItem"
+                    android:text="테트라/카라신"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tettra_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약산성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ing_goldfish_scroll"
+                    style="@style/Type"
+                    android:text="잉어/금붕어" />
+
+                <TextView
+                    android:id="@+id/ing_goldfish_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약산성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/turtle_yang_scroll"
+                    style="@style/Type"
+                    android:text="거북이/양서류" />
+
+                <TextView
+                    android:id="@+id/turtle_yang_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 약산성, 중성, 약알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/etc_animal_scoll"
+                    style="@style/Type"
+                    android:text="새우/가재/달팽이류" />
+
+
+                <Button
+                    android:id="@+id/saewoo_cb"
+                    style="@style/BestItem"
+                    android:text="새우"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/saewoo_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 22~26도\n* 적정 Ph: 중성, 약산성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/gajae_cb"
+                    style="@style/BestItem"
+                    android:text="가재"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/gajae_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 약산성, 중성, 약알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/snail_cb"
+                    style="@style/BestItem"
+                    android:text="달팽이"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/snail_detail"
+                    style="@style/BestDetail"
+                    android:text="* 적정온도: 24~28도\n* 적정 Ph: 중성, 약알칼리성\n* 먹이 주기: 1일 1회\n* 환수방법: 주 1회 30%"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

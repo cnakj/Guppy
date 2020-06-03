@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0F0D9A</item>
+        <item name="colorPrimaryDark">#242C4C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active</item>
+    </style>
+
+    <style name="TextAppearance"/>
+    <style name="TextAppearance.BottomNavigationView"/>
+
+    <style name="TextAppearance.BottomNavigationView.Active">
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WaterTitle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">50dp</item>
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="WaterValue" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">50dp</item>
+        <item name="android:fontFamily">@font/nanumsquareroundr</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+    <style name="AlertText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:drawableStart">@drawable/ic_warning_black_24dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:drawableTint">#C62828</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+    </style>
+
+    <style name="Type" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">16dp</item>
+        <item name ="android:paddingStart">50dp</item>
+        <item name ="android:paddingEnd">50dp</item>
+        <item name ="android:textSize">25sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundb</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:drawableRight">@drawable/ic_chevron_right_black_24dp</item>
+        <item name ="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="FriendItem" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">10dp</item>
+        <item name ="android:layout_marginStart">80dp</item>
+        <item name ="android:textSize">20sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundl</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:background">@android:color/transparent</item>
+        <item name ="android:visibility">gone</item>
+    </style>
+
+    <style name="BestItem" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">10dp</item>
+        <item name ="android:paddingStart">80dp</item>
+        <item name ="android:paddingEnd">50dp</item>
+        <item name ="android:textSize">25sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundl</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:drawableRight">@drawable/ic_chevron_right_black_24dp</item>
+        <item name ="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BestDetail" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">5dp</item>
+        <item name ="android:paddingStart">90dp</item>
+        <item name ="android:paddingEnd">50dp</item>
+        <item name ="android:textSize">20sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundl</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SolutionTitle" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">30dp</item>
+        <item name ="android:layout_marginStart">40dp</item>
+        <item name ="android:textSize">25sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundb</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SolutionDetail" parent="TextAppearance.AppCompat">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginTop">10dp</item>
+        <item name ="android:layout_marginBottom">10dp</item>
+        <item name ="android:layout_marginStart">50dp</item>
+        <item name ="android:textSize">18sp</item>
+        <item name ="android:fontFamily">@font/nanumsquareroundr</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name ="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="BluetoothText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">80dp</item>
+        <item name="android:paddingTop">80dp</item>
+        <item name="android:paddingBottom">80dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+</resources>

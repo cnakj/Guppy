@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_water_button"
+        android:icon="@drawable/ic_my_water_24dp"
+        android:title="@string/title_my_water" />
+    <item
+        android:id="@+id/my_friend_button"
+        android:icon="@drawable/ic_my_friend"
+        android:title="@string/title_my_friend" />
+    <item
+        android:id="@+id/best_water_button"
+        android:icon="@drawable/ic_best_water"
+        android:title="@string/title_best_water" />
+    <item
+        android:id="@+id/solution_button"
+        android:icon="@drawable/ic_solution"
+        android:title="@string/title_solution" />
+
+</menu>

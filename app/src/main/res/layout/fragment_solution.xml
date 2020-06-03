@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SolutionFragment">
+
+    <TextView
+        android:id="@+id/degree_solution"
+        style="@style/SolutionTitle"
+        android:text="온도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/degree_notice_low"
+        style="@style/SolutionDetail"
+        android:text="온도가 낮으면 햇빛이 드는 곳으로 옮겨주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degree_solution" />
+
+    <TextView
+        android:id="@+id/degree_solution_high"
+        style="@style/SolutionDetail"
+        android:text="온도가 높으면 음지로 옮겨주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degree_notice_low" />
+
+    <TextView
+        android:id="@+id/ph_solution"
+        style="@style/SolutionTitle"
+        android:text="pH"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degree_solution_high" />
+
+    <TextView
+        android:id="@+id/ph_solution_low"
+        style="@style/SolutionDetail"
+        android:text="pH가 낮으면 바닥모래를 어항에 넣어주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ph_solution" />
+
+    <TextView
+        android:id="@+id/ph_solution_high"
+        style="@style/SolutionDetail"
+        android:text="pH가 높으면 피트모스를 어항에 넣어주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ph_solution_low" />
+
+    <TextView
+        android:id="@+id/oxygen_solution"
+        style="@style/SolutionTitle"
+        android:text="용존산소"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ph_solution_high" />
+
+
+    <TextView
+        android:id="@+id/oxygen_solution_low"
+        style="@style/SolutionDetail"
+        android:text="용존산소가 낮으면 에어펌프를 사용하거나\n수면에 파도를 만들어 주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxygen_solution" />
+
+
+    <TextView
+        android:id="@+id/tackdo_solution"
+        style="@style/SolutionTitle"
+        android:text="탁도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxygen_solution_low"/>
+
+    <TextView
+        android:id="@+id/tackdo_solution_high"
+        style="@style/SolutionDetail"
+        android:text="탁도가 높으면 어항의 물을 갈아주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tackdo_solution" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

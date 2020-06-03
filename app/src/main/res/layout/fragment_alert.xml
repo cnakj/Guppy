@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/oxygen_notice_low"
+        style="@style/AlertText"
+        android:text="용존산소량이 낮습니다"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/oxygen_notice_high"
+        style="@style/AlertText"
+        android:text="용존산소량이 높습니다"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxygen_notice_low" />
+
+    <TextView
+        android:id="@+id/time_notice"
+        style="@style/AlertText"
+        android:text="물을 갈아주세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxygen_notice_high" />
+
+    <TextView
+        android:id="@+id/feed_notice"
+        style="@style/AlertText"
+        android:text="먹이를 주세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_notice" />
+
+    <TextView
+        android:id="@+id/degree_notice_low"
+        style="@style/AlertText"
+        android:text="온도가 낮습니다"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feed_notice" />
+
+    <TextView
+        android:id="@+id/degree_notice_high"
+        style="@style/AlertText"
+        android:text="온도가 높습니다"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degree_notice_low" />
+
+    <TextView
+        android:id="@+id/ph_notice_low"
+        style="@style/AlertText"
+        android:text="pH가 낮습니다"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degree_notice_high" />
+
+    <TextView
+        android:id="@+id/ph_notice_high"
+        style="@style/AlertText"
+        android:text="pH가 높습니다"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ph_notice_low" />
+
+    <TextView
+        android:id="@+id/level_notice_high"
+        style="@style/AlertText"
+        android:text="물을 더 넣어주세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ph_notice_high" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

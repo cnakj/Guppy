@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_my_water">
+
+    <fragment
+        android:id="@+id/navigation_my_water"
+        android:name="com.example.guppy.ui.MyWaterFragment"
+        android:label="@string/title_my_water"
+        tools:layout="@layout/fragment_my_water" />
+
+    <fragment
+        android:id="@+id/navigation_my_friend"
+        android:name="com.example.guppy.ui.MyFriendFragment"
+        android:label="@string/title_my_friend"
+        tools:layout="@layout/fragment_my_friend" />
+
+    <fragment
+        android:id="@+id/navigation_best_water"
+        android:name="com.example.guppy.ui.BestWaterFragment"
+        android:label="@string/title_best_water"
+        tools:layout="@layout/fragment_best_water" />
+
+    <fragment
+        android:id="@+id/navigation_solution"
+        android:name="com.example.guppy.ui.SolutionFragment"
+        android:label="@string/title_solution"
+        tools:layout="@layout/fragment_solution" />
+
+
+</navigation>
